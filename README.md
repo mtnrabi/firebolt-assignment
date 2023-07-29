@@ -142,7 +142,7 @@ union
   where l_orderkey = 1466369 and 
   l_extendedprice = (select min(l_extendedprice) 
                      from "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."LINEITEM" 
-                     where l_orderkey = only_min_row.l_orderkey);;
+                     where l_orderkey = only_min_row.l_orderkey);
 ```
 
 This might not be the most elegant way to solve this.
