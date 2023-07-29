@@ -116,7 +116,7 @@ where
                                 l_extendedprice < origin.l_extendedprice);
 ```
 
-The problem with this statement is that it doesn't return the first row (which the next_l_partkey should be null).
+The problem with this statement is that it doesn't return the first row (where the next_l_partkey is null).
 
 To solve this, I've added another statement to handle this case and unioned them together for the **final query** to achieve the same result without using window functions:
 
