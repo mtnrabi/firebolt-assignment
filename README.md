@@ -83,7 +83,8 @@ select * from FIREBOLT.FIREBOLT_ASSIGNMENT.PART limit 10;
 
 ## Part 2
 
-So, I've started with this: considering a row has an l_extendedprice **** equals to **x,**   **how can I get the previous l_extendedprice?** (mimicking the **lag** window function). This query does it:
+So, I've started with this question: 
+considering a row has an l_extendedprice equals to x **how can I get the previous l_extendedprice?** (mimicking the **lag** window function). This query does it:
 
 ```
 select max(l_extendedprice)
