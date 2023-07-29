@@ -147,4 +147,4 @@ union
 
 This might not be the most elegant way to solve this.
 
-There might be a way to achieve this goal without the union (maybe going down the path of nested sub-selects), but since this query will not change no matter the size of the table, I'm happy with this.
+There might be a way to achieve this goal without the union (maybe going down the path of switch-case statements), but since this query will not change no matter the size of the table, I'm happy with this.
