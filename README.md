@@ -89,9 +89,9 @@ So, I've started with this: considering a row has an l_extendedprice **** equals
 ```
 select max(l_extendedprice)
 from (select *
-from
-"SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."LINEITEM"
-where l_extendedprice < x and l_orderkey = 1466369)
+      from
+      "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."LINEITEM"
+      where l_extendedprice < x and l_orderkey = 1466369)
 ```
 
 Since I need the **l_partkey** and not the **l_extendedprice**, I can't simply put this query in a subselect in my select statement.
