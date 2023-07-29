@@ -47,7 +47,7 @@ ALTER TABLE FIREBOLT.FIREBOLT_ASSIGNMENT.PART ALTER
 P_RETAILPRICE SET DATA TYPE DECIMAL(6,2);
 ```
 
-- Load the data onto the table using these commands:
+- Load the data onto the table using this command:
 
 ```
 copy into FIREBOLT.FIREBOLT_ASSIGNMENT.PART
