@@ -11,7 +11,6 @@ aws s3 ls s3://firebolt-publishing-public/assignments/solution_architect/
 Returned one file: `part.csv`
 
 - Download [https://s3.amazonaws.com/firebolt-publishing-public/assignments/solution_architect](https://s3.amazonaws.com/firebolt-publishing-public/assignments/solution_architect)/part.csv into my local machine
-- 
 
 **Ingesting the file into snowflake table**
 
